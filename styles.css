@@ -1,2 +1,10 @@
 h1{font-size:36px;color: #33485e;font-family: 'Playfair Display', serif;}
-img{width:300px;}
+img{width:300px;margin:15px;}
+font-family: 'DM Serif Display', serif;
+font-family: 'Vollkorn', serif;
+color-palette{background-color:white;border:2px;padding:10px;height:150px;width:150px;}
+color-1{background-color:#E8E0F5;height:150px;width:150px;}
+color-2{background-color:#0D070A;height:150px;width:150px;}
+color-3{background-color:#C0A487;height:150px;width:150px;}
+color-4{background-color:#C08C87;height:150px;width:150px;}
+color-5{background-color:#84849A;height:150px;width:150px;}
