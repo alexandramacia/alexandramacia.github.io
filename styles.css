@@ -13,7 +13,7 @@ color-2, span{color:white;}
 #color-5{background-color:#84849A;height:150px;width:150px;}
 #banner{background-color:#C0A487;
   height:335px;
-  width:50%;
+  width:450px;
   margin: auto;
   border-style:solid;
   outline-color: black;
@@ -22,5 +22,5 @@ color-2, span{color:white;}
 }
 #name{color:black;font-size: 45px;font-weight:bolder;font-family: 'DM Serif Display', serif;position: relative;right: -65px;bottom:+25px}
 #socials{font-family: 'DM Serif Display', serif;font-style: italic;font-size: 18px;color:white;font-weight: bold;position: relative;right:-110px;bottom:+55px;}
-#profile{direction: rtl;position: relative;top:-152px;left:-170px;border-radius: 50%}
+#profile{direction: rtl;position: relative;top:-152px;left:-155px;border-radius: 50%}
 #tag{font-family:'Vollkorn', serif;color:white;position: relative;right:-70px;font-style: italic;font-weight:lighter;font-size: 20px;bottom: -135px;}
