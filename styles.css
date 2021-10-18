@@ -1,8 +1,10 @@
 h1{font-size:36px;color: #33485e;font-family: 'Playfair Display', serif;}
-img{width:120px;margin:15px;border-radius: 50%}
+img{width:130px;height:220px;}
 font-family: 'DM Serif Display', serif;
 font-family: 'Vollkorn', serif;
-color-palette{background-color:white;border:2px;padding:10px;height:150px;width:150px;}
+font-family:'Playfair Display', serif;
+color-palette{background-color:white;border:2px;padding:10px;
+  height:150px;width:150px;}
 #color-1{background-color:#E8E0F5;height:150px;width:150px;border:5px;}
 #color-2{background-color:#0D070A;
   height:150px;
@@ -18,9 +20,34 @@ color-2, span{color:white;}
   border-style:solid;
   outline-color: black;
   outline-width: thin;
-  top:-30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-#name{color:black;font-size: 45px;font-weight:bolder;font-family: 'DM Serif Display', serif;position: relative;right: -65px;bottom:+25px}
-#socials{font-family: 'DM Serif Display', serif;font-style: italic;font-size: 18px;color:white;font-weight: bold;position: relative;right:-110px;bottom:+55px;}
-#profile{direction: rtl;position: relative;top:-152px;left:-155px;border-radius: 50%}
-#tag{font-family:'Vollkorn', serif;color:white;position: relative;right:-70px;font-style: italic;font-weight:lighter;font-size: 20px;bottom: -135px;}
+#name{color:black;font-size: 45px;font-weight:bolder;
+  font-family: 'DM Serif Display', serif;font-style: italic;
+  position: relative;right: -65px;bottom:+25px;}
+#socials{font-family: 'DM Serif Display', serif;font-style: italic;
+font-size: 18px;color:white;font-weight: bold;
+position: relative;right:-110px;bottom:+55px;}
+#profile{direction: rtl;position:relative;top:-100px;
+  left:-162px;}
+#tag{font-family: 'Playfair Display', serif;
+color:black;position: relative;left: -215px;
+font-style: normal;font-weight: lighter;
+font-size: 15px;bottom: -200px;flex-wrap: nowrap;width: 875px;
+background-color:#E8E0F5}
+#line{width:700px;
+height:70px;
+border-bottom: 4px solid black;
+position: relative;
+margin-left: auto;
+margin-right: auto;}
+#line-1{height:700px;
+width:47px;
+border-left:4px solid black;
+margin-left: auto;
+margin:150px;}
+#line-2{height:700px;
+width:47px;
+border-right:4px solid black;
+margin:-150px;}
