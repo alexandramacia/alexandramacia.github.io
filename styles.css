@@ -1,4 +1,4 @@
-h1{font-size:40px;color:#C08C87;font-family: 'Playfair Display', serif;}
+h1{font-size:35px;color:#C08C87;font-family: 'Playfair Display', serif;}
 img{width:150px;height:250px;}
 font-family: 'DM Serif Display', serif;
 font-family: 'Vollkorn', serif;
@@ -27,22 +27,68 @@ color-2, span{color:white;}
   position: relative;right: -105px;bottom:+35px;}
 #socials{font-family: 'DM Serif Display', serif;font-style: italic;
 font-size: 18px;color:white;font-weight: bold;
-position: relative;right:-155px;bottom:-190px;}
-#profile{direction: rtl;position:relative;top:-160px;
-  left:-201px;}
+position: relative;right:-155px;bottom:-200px;}
+#profile{direction: rtl;position:relative;top:-150px;
+  left:+200px;
+width:150px;height:250px;}
 #tag{font-family: 'Playfair Display', serif;
-color:black;position: relative;left: -170px;
+color:black;position: relative;left: -160px;
 font-style: normal;font-weight:bolder;
-font-size: 16px;bottom: -190px;flex-wrap: nowrap;width: 925px;}
+font-size: 15px;bottom: -190px;flex-wrap: nowrap;width: 925px;}
 #content{
   text-align: center;
   border-left: 5px solid black;
-  height:550px;
-  margin-left: 100px;
+  height:500px;
+  margin-left: 150px;
   border-right: 5px solid black;
-  margin-right: 100px;
+  margin-right: 150px;
   font-family:'Vollkorn', serif;
   font-size:25px;
   color: black;}
 #pages{text-align: right;
 }
+#background{text-align: center;
+margin-left: 150px;
+margin-right: 150px;
+font-family:'Playfair Display', serif;
+font-size: 20px;}
+.headline{text-align: center;border-style:}
+.headline h1{font-size: 45px;
+  border-style:solid;
+  outline-width: thin;}
+#abouttext{
+  background-color: #C0A487;
+  color:black;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-style:solid;
+  outline-width: thin;
+  font-weight: bold;
+}
+.aboutimage{text-align: right;
+margin-right: 150px;}
+.aboutimage img{height:480px;
+width:325px;}
+.resume{background-color:#EDEDEA;
+  margin-left: 150px;
+margin-right: 295px;
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+font-size: 18px;
+border-style:solid;
+outline-width: thin;}
+.resume h2{color:#C0A487;
+  border-style:solid;
+  outline-width: thin;
+width: 150px;
+text-align: center;}
+.resume h3{color:#84849A;
+  border-style:solid;
+  outline-width: thin;
+width: 120px;
+text-align: center;}
+.resume h1{text-align: center;
+font-size: 45px;}
