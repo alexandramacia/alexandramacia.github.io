@@ -1,100 +1,181 @@
-h1{font-size:35px;color:#C08C87;font-family: 'Playfair Display', serif;}
-img{width:150px;height:250px;}
-font-family: 'DM Serif Display', serif;
-font-family: 'Vollkorn', serif;
-font-family:'Playfair Display', serif;
-color-palette{background-color:white;border:2px;padding:10px;
-  height:150px;width:150px;}
-#color-1{background-color:#E8E0F5;height:150px;width:150px;border:5px;}
-#color-2{background-color:#0D070A;
-  height:150px;
-  width:150px;}
-color-2, span{color:white;}
-#color-3{background-color:#C0A487;height:150px;width:150px;}
-#color-4{background-color:#C08C87;height:150px;width:150px;}
-#color-5{background-color:#84849A;height:150px;width:150px;}
-#banner{background-color:#C9A9A6;
-  height:335px;
-  width:550px;
-  margin: auto;
-  border-style:solid;
-  outline-width: thin;
-  margin-left: auto;
-  margin-right: auto;
+h1{
+    font-size:35px;
+    color:#C08C87;
+    font-family: 'Playfair Display', serif;
 }
-#name{color:white;font-size: 45px;font-weight:bold;
-  font-family: 'Playfair Display', serif;font-style: bolder;
-  position: relative;right: -105px;bottom:+35px;}
-#socials{font-family: 'DM Serif Display', serif;font-style: italic;
-font-size: 18px;color:white;font-weight: bold;
-position: relative;right:-155px;bottom:-200px;}
-#profile{direction: rtl;position:relative;top:-150px;
-  left:+200px;
-width:150px;height:250px;}
-#tag{font-family: 'Playfair Display', serif;
-color:black;position: relative;left: -160px;
-font-style: normal;font-weight:bolder;
-font-size: 15px;bottom: -190px;flex-wrap: nowrap;width: 925px;}
-#content{
-  text-align: center;
-  border-left: 5px solid black;
-  height:500px;
-  margin-left: 150px;
-  border-right: 5px solid black;
-  margin-right: 150px;
-  font-family:'Vollkorn', serif;
-  font-size:25px;
-  color: black;}
-#pages{text-align: right;
+ img{
+    width:150px;
+    height:250px;
 }
-#background{text-align: center;
-margin-left: 150px;
-margin-right: 150px;
-font-family:'Playfair Display', serif;
-font-size: 20px;}
-#background h2{border-style:solid;
-outline-width: thin;
-color:#C08C87;}
-.headline{text-align: center;border-style:}
-.headline h1{font-size: 45px;
-  border-style:solid;
-  outline-width: thin;}
-#abouttext{
-  background-color: #C0A487;
-  color:black;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
-  border-style:solid;
-  outline-width: thin;
-  font-weight: bold;
+ /* font-family: 'DM Serif Display', serif;
+ font-family: 'Vollkorn', serif;
+ font-family:'Playfair Display', serif; */
+ color-palette{
+    background-color:white;
+    border:2px;
+    padding:10px;
+     height:150px;
+    width:150px;
 }
-.aboutimage{text-align: right;
-margin-right: 150px;}
-.aboutimage img{height:480px;
-width:325px;}
-.resume{background-color:#F8F7F6;
-margin-left: 150px;
-margin-right: 480px;
-font-family: 'Playfair Display', serif;
-font-weight: bold;
-font-size: 18px;
-border-style:solid;
-outline-width: thin;
-text-align: center;}
-.resume h2{color:#C0A487;
-  border-style:solid;
-  outline-width: thin;
-text-align: center;}
-.resume h3{color:#84849A;
-border-style:solid;
-outline-width: thin;
-text-align: center;}
-.resume h1{text-align: center;
-font-size: 45px;
-border-style: solid;
-outline-width: thin;}
-#content h1{border-style: solid;
-outline-width: thin;}
+ #color-1{
+    background-color:#E8E0F5;
+    height:150px;
+    width:150px;
+    border:5px;
+}
+ #color-2{
+    background-color:#0D070A;
+     height:150px;
+     width:150px;
+}
+ color-2, span{
+    color:white;
+}
+ #color-3{
+    background-color:#C0A487;
+    height:150px;
+    width:150px;
+}
+ #color-4{
+    background-color:#C08C87;
+    height:150px;
+    width:150px;
+}
+ #color-5{
+    background-color:#84849A;
+    height:150px;
+    width:150px;
+}
+ #banner{
+    background-color:#C9A9A6;
+     height:335px;
+     width:550px;
+     margin: auto;
+     border-style:solid;
+     outline-width: thin;
+     margin-left: auto;
+     margin-right: auto;
+}
+ #name{
+    color:white;
+    font-size: 45px;
+    font-weight:bold;
+     font-family: 'Playfair Display', serif;
+    font-style: bolder;
+     position: relative;
+    right: -105px;
+    bottom:+35px;
+}
+ #socials{
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+     font-size: 18px;
+    color:white;
+    font-weight: bold;
+     position: relative;
+    right:-155px;
+    bottom:-200px;
+}
+ #profile{
+    direction: rtl;
+    position:relative;
+    top:-150px;
+     left:+200px;
+     width:150px;
+    height:250px;
+}
+ #tag{
+    font-family: 'Playfair Display', serif;
+     color:black;
+     font-style: normal;
+     font-weight:bolder;
+     font-size: 15px;
+}
+ #content{
+     text-align: center;
+     border-left: 5px solid black;
+     height:500px;
+     margin-left: 150px;
+     border-right: 5px solid black;
+     margin-right: 150px;
+     font-family:'Vollkorn', serif;
+     font-size:25px;
+     color: black;
+}
+ #pages{
+    text-align: right;
+}
+ #background{
+    text-align: center;
+     margin-left: 150px;
+     margin-right: 150px;
+     font-family:'Playfair Display', serif;
+     font-size: 20px;
+}
+ #background h2{
+    border-style:solid;
+     outline-width: thin;
+     color:#C08C87;
+}
+ .headline{
+    text-align: center;
+    border-style:
+}
+ .headline h1{
+    font-size: 45px;
+     border-style:solid;
+     outline-width: thin;
+}
+ #abouttext{
+     background-color: #C0A487;
+     color:black;
+     font-family: 'Playfair Display', serif;
+     font-size: 20px;
+     text-align: center;
+     margin-left: 150px;
+     margin-right: 150px;
+     border-style:solid;
+     outline-width: thin;
+     font-weight: bold;
+}
+ .aboutimage{
+    text-align: right;
+     margin-right: 150px;
+}
+ .aboutimage img{
+    height:480px;
+     width:325px;
+}
+ .resume{
+    background-color:#F8F7F6;
+     margin-left: 150px;
+     margin-right: 480px;
+     font-family: 'Playfair Display', serif;
+     font-weight: bold;
+     font-size: 18px;
+     border-style:solid;
+     outline-width: thin;
+     text-align: center;
+}
+ .resume h2{
+    color:#C0A487;
+     border-style:solid;
+     outline-width: thin;
+     text-align: center;
+}
+ .resume h3{
+    color:#84849A;
+     border-style:solid;
+     outline-width: thin;
+     text-align: center;
+}
+ .resume h1{
+    text-align: center;
+     font-size: 45px;
+     border-style: solid;
+     outline-width: thin;
+}
+ #content h1{
+    border-style: solid;
+     outline-width: thin;
+}
