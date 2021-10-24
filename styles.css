@@ -1,6 +1,6 @@
 h1{
     font-size:35px;
-    color:#C08C87;
+    color:black;
     font-family: 'Playfair Display', serif;
 }
  img{
@@ -47,22 +47,25 @@ h1{
     width:150px;
 }
  #banner{
-    background-color:#C9A9A6;
+    background-color:#C0A487;
      max-width:550px;
      margin: auto;
      border-style:solid;
      outline-width: thin;
      margin-left: auto;
      margin-right: auto;
+     border-color: white;
 }
  #name{
     color:white;
     font-size: 45px;
-    font-weight:bold;
+    font-weight:thin;
      font-family: 'Playfair Display', serif;
-    font-style: bolder;
+    font-style:normal;
     text-align: center;
     margin-top: 15px;
+    border-style: solid;
+    border-color:white;
 }
  #socials{
     font-family: 'DM Serif Display', serif;
@@ -91,14 +94,13 @@ h1{
 
  #content{
      text-align: center;
-     border-left: 5px solid black;
-     height:500px;
+     height:1150px;
      margin-left: 150px;
-     border-right: 5px solid black;
      margin-right: 150px;
      font-family:'Vollkorn', serif;
      font-size:25px;
      color: black;
+     background-color:lightgrey;
 }
  #pages{
     text-align: right;
@@ -109,11 +111,19 @@ h1{
      margin-right: 150px;
      font-family:'Playfair Display', serif;
      font-size: 20px;
+     color:black;
+     font-weight: bolder;
+      margin-bottom: 45px;
+      border: 5px;
+      border-style: solid;
+      border-color: black;
+       margin-top: 40px;
+       background-color: #e8ccd7;
 }
  #background h2{
     border-style:solid;
      outline-width: thin;
-     color:#C08C87;
+     color:black;
 }
  .headline{
     text-align: center;
@@ -185,6 +195,11 @@ h1{
 #about .flex-container .aboutimage {
     order: 2;
 }
+#content .flex-container1 {
+  display:inline-block;
+}
+#content .flex-container1 img{height:250px;
+width:335px;}
 
 @media screen and (max-width: 650px) {
     #about .flex-container {
@@ -195,4 +210,3 @@ h1{
     #about .flex-container .aboutimage {
         order: -1;
     }
-}
