@@ -179,6 +179,7 @@ h1{
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-top: 25px;
 }
 
 #about .flex-container .aboutimage {
