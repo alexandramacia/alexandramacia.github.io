@@ -202,6 +202,61 @@ h1{
 }
 #content .flex-container1 img{height:250px;
 width:335px;}
+#projectsimage img {display: block;
+margin:0 auto;
+width:150px;
+height:auto;
+display:block;}
+
+.previouscaption p{font-family: 'Playfair Display', serif;
+    color: black;
+    position: relative;
+    font-style: normal;
+    font-weight: bolder;
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto;
+  font-size: 20px;
+border:3px;
+border:solid;
+border-color: lightgrey;
+background-color:#E8E0F5;}
+
+#projectlinks .flex-container2{
+  display: flex;
+justify-content: center;
+margin-top: 25px;
+margin-left:150px;
+margin-right:150px;
+gap: 100px;
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+font-size: 18px;
+border:3px solid lightgrey;
+background-color: #e8ccd7;
+margin-top:5px;
+}
+#projectlinks .flex-container2 .shows{ display: block;
+text-align: center;}
+#projectlinks .flex-container2 .shows img{ width:335px; height:auto;margin-left: 10px;margin-top: 10px;}
+
+#projectlinks .flex-container2 .articles{ display: block;
+  text-align: center;
+  order:2;
+}
+
+#projectlinks .flex-container3{display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  grid-column-gap: 300px;
+border:3px;
+border:solid black;
+background-color: #C0A487;
+flex-direction: row;
+}
+#projectlinks .flex-container3 h1{color:white;}
 
 @media screen and (max-width: 650px) {
     #about .flex-container {
