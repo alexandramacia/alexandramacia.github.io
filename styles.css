@@ -51,7 +51,7 @@ body{background-color: #f9f2ec;}
     background-color:#C0A487;
      max-width:550px;
      margin: auto;
-     border:10px solid white;
+     border:15px solid white;
      outline-width: thin;
      margin-left: auto;
      margin-right: auto;
@@ -116,7 +116,7 @@ body{background-color: #f9f2ec;}
      color:black;
      font-weight: bolder;
       margin-bottom: 45px;
-      border: 5px;
+      border: 7px;
       border-style: solid;
       border-color: black;
        margin-top: 40px;
@@ -124,6 +124,7 @@ body{background-color: #f9f2ec;}
 }
  #background h2{
     border-style:solid;
+    border-width:3px;
      outline-width: thin;
      color:black;
 }
