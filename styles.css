@@ -238,7 +238,7 @@ font-family: 'Playfair Display', serif;
 font-weight: bold;
 font-size: 18px;
 border:solid;
-border-width:7px;
+border-width:5px;
 border-color:black;
 background-color:#e8ccd7;
 margin-top:5px;
@@ -260,7 +260,7 @@ text-align: center;}
   margin-right: 150px;
   grid-column-gap: 300px;
   border:solid black;
-border-width:7px;
+border-width:5px;
 background-color: #C0A487;
 flex-direction: row;
 }
